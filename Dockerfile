@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt-get update && apt-get install -y gcc g++ perl python automake make wget git curl libdb-dev software-properties-common unzip bzip2 ncurses-dev  zlib1g-dev libbz2-dev liblzma-dev && apt-get clean
+RUN apt-get update && apt-get install -y gcc g++ perl nano python automake make wget git curl libdb-dev software-properties-common unzip bzip2 ncurses-dev  zlib1g-dev libbz2-dev liblzma-dev && apt-get clean
 
 
 
